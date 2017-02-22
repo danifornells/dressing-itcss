@@ -1,0 +1,21 @@
+{
+  "name": "dressing-itcss",
+  "version": "1.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "Gemfile",
+    "Gemfile.lock",
+    "test",
+    "Gruntfile.js",
+    "tasks",
+    "demo",
+    "docs",
+    "package.json"
+  ],
+  "dependencies": {
+    "reveal.js": "^3.3.0"
+  }
+}

@@ -1,0 +1,7 @@
+name: Dressing ITCSS
+markdown: kramdown
+
+gems: ['jekyll-github-metadata']
+repository: danifornells/dressing-itcss
+
+exclude: [Gemfile, Gemfile.lock, bower.json, bower_components]
