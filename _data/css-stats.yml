@@ -1,0 +1,21 @@
+examples:
+
+  - name: Milanuncios
+    size: 51KB
+    url: http://cssstats.com/stats?url=http%3A%2F%2Fwww.milanuncios.com%2Fseat-de-segunda-mano%2Fseat-131-sofim-164661946.htm&ua=Browser%20Default
+
+  - name: Sunweb v4
+    size: 283KB
+    url: http://cssstats.com/stats?url=http%3A%2F%2Fzon.sunweb.nl&ua=Browser%20Default
+
+  - name: Sunweb v5
+    size: 136KB
+    url: http://cssstats.com/stats?url=https%3A%2F%2Fwww.sunweb.se%2Fsolresor&ua=Browser%20Default
+
+  - name: Infojobs
+    size: 237KB
+    url: http://cssstats.com/stats?link=https%3A%2F%2Fwww.infojobs.net%2Fstatic%2Fcandidates-0FC4B0029925535BA0BE8927BE0810D1.css
+
+  - name: ITCSS (discovr)
+    size: 49KB
+    url: http://cssstats.com/stats?url=https%3A%2F%2Fcsswizardry.com%2Fdiscovr&ua=Browser%20Default

@@ -1,0 +1,17 @@
+
+.u-fragment-visible {
+  opacity: 1 !important;
+  visibility: inherit !important;
+}
+
+.u-fragment-current-red {
+  &.current-fragment {
+    color: #ff2c2d !important;
+  }
+}
+
+.u-fragment-discrete {
+  &.visible:not(.current-fragment) {
+    opacity: .5 !important;
+  }
+}

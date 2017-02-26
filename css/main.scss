@@ -5,5 +5,28 @@
    DRESSING ITCSS STYLESHEET
    ========================================================================== */
 
+@import 'settings/core';
+@import 'settings/config';
+@import 'settings/spaces';
+
 @import 'reveal';
 @import 'reveal-themes/sky';
+
+@import 'reveal-overrides';
+
+
+.s-itcss {
+
+  @import 'generic/generic-scoped';
+  @import 'objects/layout';
+  @import 'objects/pack';
+
+}
+
+@import 'components/demo';
+
+@import 'utilities/colors';
+@import 'utilities/fragments';
+@import 'utilities/text';
+@import 'utilities/widths';
+@import 'utilities/margins';

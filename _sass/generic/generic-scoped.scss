@@ -1,0 +1,16 @@
+
+/* ==========================================================================
+ * GENERIC (SCOPED)
+ * Normalize and bootstrapping
+ *
+ * box-sizing ............. sets a better default 'box-sizing'
+ * normalize .............. @necolas' normalize.css
+ * reset .................. a tiny reset to complement normalize
+   ========================================================================== */
+
+
+@import 'generic-scoped--box-sizing';
+@import 'generic--normalize';
+@import 'generic--reset';
+
+

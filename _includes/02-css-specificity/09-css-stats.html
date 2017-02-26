@@ -1,0 +1,7 @@
+{% for example in site.data.css-stats.examples %}
+<section>
+    <p>CSS Stats: <strong>{{example.name}}</strong> <span class="u-color--translucent">({{example.size}})</span></p>
+    <iframe lazy-src="{{example.url}}#top-stats" frameborder="0" height="130px" width="100%"></iframe>
+    <iframe lazy-src="{{example.url}}#specificity-graph" frameborder="0" height="365px" width="100%"></iframe>
+</section>
+{% endfor %}

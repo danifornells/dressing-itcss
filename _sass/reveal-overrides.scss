@@ -1,0 +1,53 @@
+.reveal section img {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  margin: 0;
+}
+
+.reveal ul {
+  list-style: none;
+  margin-left: 0;
+
+  li {
+    margin-bottom: $s-space;
+    position: relative;
+    padding-left: 1em;
+
+    &::before {
+      content: "- ";
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: .5;
+    }
+
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    font-size: .75em;
+    li {
+      margin-bottom: $s-space-tiny;
+      &:first-child {
+        margin-top: $s-space;
+      }
+    }
+  }
+
+}
+
+.reveal pre {
+  font-size: .75em;
+  box-shadow: none;
+
+  &.small {
+    font-size: .45em;
+  }
+
+  code {
+    background-color: transparent;
+  }
+}
+

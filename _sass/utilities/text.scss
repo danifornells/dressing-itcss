@@ -1,0 +1,25 @@
+
+.u-font--main {
+  font-family: $mainFont !important;
+}
+
+.u-font--heading {
+  font-family: $headingFont !important;
+}
+
+.u-font--code {
+  font-family: monospace, monospace !important;
+  letter-spacing: 0 !important;
+}
+
+.u-text--transform-none {
+  text-transform: none !important;
+}
+
+.u-text--lowercase {
+  text-transform: lowercase !important;
+}
+
+.u-text--center {
+  text-align: center !important;
+}

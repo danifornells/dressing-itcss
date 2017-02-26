@@ -1,0 +1,43 @@
+// BEMIT: Namespaces everywhere
+
+// 01-Settings: core-variables
+$s-core__font-size:         16px !default;
+$s-color-primary:           #247ba0 !default;
+$s-breakpoints: (
+        "xs":               480px,
+        "md":               960px,
+        "lg":               1280px,
+) !default;
+
+// 01-Settings: core-functions
+@function s-strip-units($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@function s-px-to-rem($value, $root-font-size: $s-core__font-size) {
+  @return s-strip-units($value) / s-strip-units($root-font-size) * 1rem;
+}
+
+// 02-Tools: MQ
+@mixin t-mq-min($breakpoint) {
+  @media (min-width: map-get($s-breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+// 04-Elements: HTML
+html {
+  font-size: $s-core__font-size;
+}
+
+// 06-Components: Site Search
+$c-site-search__font-size:  12px !default;
+$c-site-search__btn-color:  $s-color-primary !default;
+
+.c-site-search {
+  font-size: s-px-to-rem($c-site-search__font-size);
+}
+
+.c-site-search__btn {
+  background-color: $c-site-search__btn-color;
+}

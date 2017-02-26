@@ -1,0 +1,25 @@
+
+.c-demo {
+  text-align: left;
+  font-size: 1rem !important;
+  position: fixed;
+  bottom: $s-space;
+  left: $s-space;
+
+  &::before {
+    font-size: .75rem !important;
+    content: "DEMO:";
+    display: block;
+  }
+
+  section:not(.present) &,
+  section[hidden] &,
+  section[aria-hidden] & {
+    display: none;
+  }
+
+}
+
+.c-demo__item {
+  display: block;
+}

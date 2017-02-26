@@ -1,0 +1,15 @@
+
+/* -------------------------------------------------------------------------
+ * MARGINS
+ */
+
+$u-margins-enabled:                     true !default;
+$u-margins-spaces:                      $s-spaces !default;
+
+@if ($u-margins-enabled) {
+  @each $space-name, $space-value in $u-margins-spaces {
+    .u-mb--#{$space-name} {
+      margin-bottom: $space-value !important;
+    }
+  }
+}
