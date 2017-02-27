@@ -1,0 +1,9 @@
+$u-color__colors-brand--enabled: true !default;
+
+@if ($u-color__colors-brand--enabled) {
+  @each $name, $color in $s-colors-brand {
+    .u-color-#{$name} {
+      color: $color !important;
+    }
+  }
+}

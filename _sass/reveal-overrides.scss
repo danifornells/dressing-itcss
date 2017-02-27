@@ -42,12 +42,19 @@
   font-size: .75em;
   box-shadow: none;
 
+  &.medium {
+    font-size: .6em;
+  }
   &.small {
     font-size: .45em;
+  }
+  &.tiny {
+    font-size: .3em;
   }
 
   code {
     background-color: transparent;
   }
 }
+
 

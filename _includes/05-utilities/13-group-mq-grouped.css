@@ -1,0 +1,11 @@
+@media (min-width: 34.28571em) {
+    .u-hidden-from\@xs {
+        display: none !important; }
+    .u-1\/2\@xs {
+        width: 50% !important; } }
+
+@media (min-width: 42.85714em) {
+    .u-hidden-from\@sm {
+        display: none !important; }
+    .u-1\/2\@sm {
+        width: 50% !important; } }

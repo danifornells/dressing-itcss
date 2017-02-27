@@ -1,0 +1,10 @@
+// Site Search Component
+.c-site-search__field, .c-site-search__btn {
+  display: inline;
+}
+
+.c-site-search--stacked\@xl {
+  @include t-mq-min("xl"){
+    .c-site-search__field, .c-site-search__btn {
+      display: block;
+} } }

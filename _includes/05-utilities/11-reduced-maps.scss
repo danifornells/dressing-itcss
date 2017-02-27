@@ -1,0 +1,7 @@
+$u-color__colors-brand: map_remove($s-colors-brand, third) !default;
+
+@each $name, $color in $u-color__colors-brand {
+  .u-color-#{$name} {
+    color: $color !important;
+  }
+}

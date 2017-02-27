@@ -4,6 +4,18 @@
   visibility: inherit !important;
 }
 
+.u-fragment-invisible {
+  &:not(.current-fragment) {
+    display: none !important;
+  }
+}
+
+.u-fragment-hide-on-shown {
+  &.visible:not(.current-fragment) {
+    display: none !important;
+  }
+}
+
 .u-fragment-current-red {
   &.current-fragment {
     color: #ff2c2d !important;

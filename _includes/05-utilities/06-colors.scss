@@ -1,0 +1,11 @@
+$s-colors-brand: (
+  first:   #ec1b2d,
+  second:  #f9eb2d,
+  third:   #20a0de,
+) !default;
+
+@each $name, $color in $s-colors-brand {
+  .u-color-#{$name} {
+    color: $color !important;
+  }
+}

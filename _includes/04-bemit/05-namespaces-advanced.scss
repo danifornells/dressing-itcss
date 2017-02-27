@@ -33,6 +33,7 @@ html {
 // 06-Components: Site Search
 $c-site-search__font-size:  12px !default;
 $c-site-search__btn-color:  $s-color-primary !default;
+$c-site-search__stack-bp:   "md" !default;
 
 .c-site-search {
   font-size: s-px-to-rem($c-site-search__font-size);
@@ -40,4 +41,7 @@ $c-site-search__btn-color:  $s-color-primary !default;
 
 .c-site-search__btn {
   background-color: $c-site-search__btn-color;
+  @include t-mq-min($c-site-search__stack-bp){
+    display: block;
+  }
 }
