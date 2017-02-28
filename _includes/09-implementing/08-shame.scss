@@ -1,0 +1,7 @@
+// c-site-search__field
+// Bug PV-563 on IE <= 10
+
+._c-site-search__field {
+  margin-left: -2px;
+  margin-right: -2px;
+}

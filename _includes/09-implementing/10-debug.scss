@@ -1,0 +1,12 @@
+// Highlight scoped ITCSS
+[class^="s-itcss"],
+[class*=" s-itcss"] {
+  outline: 10px solid green;
+}
+
+// Highlight components
+[class^="c-"],
+[class*=" c-"] {
+  outline: 10px solid cyan;
+}
+

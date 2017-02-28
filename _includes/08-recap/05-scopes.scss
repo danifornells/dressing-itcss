@@ -1,0 +1,15 @@
+.s-wysinwyg {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: $s-core-font-size;
+  }
+  ul, ol {
+    margin-left: $s-space;
+  }
+  br + br {
+    display: none;
+  }
+  [style]:after {
+    content: " ¡¡ Como me cambies el color te meto dos yoyas !!";
+    color: red;
+  }
+}

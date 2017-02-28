@@ -1,0 +1,13 @@
+$s-core-font-size:          12px;
+
+@import '01_settings/settings';
+@import '02_tools/tools';
+
+.s-itcss {
+  @import '03_generic/generic';
+  @import '04_elements/elements';
+}
+
+@import '05_objects/objects';
+@import '06_components/components';
+@import '09_utilities/utilities';

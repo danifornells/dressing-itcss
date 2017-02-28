@@ -1,0 +1,10 @@
+.a-lift-reveal {
+  opacity: 0;
+  transition: transform $s-timing--fast ease-out, opacity $s-timing--fast linear;
+  transform: translate(0, -25%);
+
+  &.in {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

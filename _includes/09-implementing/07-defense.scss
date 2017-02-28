@@ -1,0 +1,8 @@
+// old.css overrides color by 0|0|3|1
+// Solution: Specificity needs to increase
+
+.c-site-search__btn {
+  html &#{&}#{&} {
+    color: $s-color-primary;
+  }
+}
