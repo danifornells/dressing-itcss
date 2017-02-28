@@ -1,0 +1,13 @@
+// Xmas modifier
+
+.c-site-search--xmas {
+
+  &.c-site-search {
+    background-color: $s-color__xmas--bg;
+  }
+
+  &.c-site-search__btn {
+    background-color: $s-color__xmas--complementary;
+    color: $s-color__xmas--accent;
+  }
+}

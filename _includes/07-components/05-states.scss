@@ -1,0 +1,13 @@
+// Disabled state
+.is-disabled {
+
+  &.c-site-search {
+    opacity: .5;
+  }
+
+  &.c-site-search__field,
+  &.c-site-search__btn {
+    pointer-events: none;
+  }
+
+}
