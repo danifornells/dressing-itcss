@@ -1,0 +1,14 @@
+.o-layout {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-left: -(map-get($s-spaces, "medium"));
+}
+
+.o-layout__item {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-left: map-get($s-spaces, "medium");
+}

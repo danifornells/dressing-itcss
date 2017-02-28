@@ -1,0 +1,14 @@
+.o-media {
+  @include t-clearfix;
+  display: block;
+}
+.o-media__img {
+  float: left;
+  margin-right: map-get($s-spaces, "medium");
+  > img { display: block; }
+}
+.o-media__body {
+  overflow: hidden;
+  display: block;
+  &, > :last-child { margin-bottom: 0; }
+}

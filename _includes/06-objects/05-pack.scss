@@ -1,0 +1,12 @@
+.o-pack {
+  width: 100%;
+  margin-left: 0;
+  display: table;
+  table-layout: fixed;
+  border-spacing: map-get($s-spaces, "medium");
+}
+
+.o-pack__item {
+  display: table-cell;
+  vertical-align: top;
+}

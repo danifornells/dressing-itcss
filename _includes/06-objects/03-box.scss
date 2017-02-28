@@ -1,0 +1,10 @@
+.o-box {
+  @include t-clearfix();
+  display: block;
+  padding: map-get($s-spaces, "medium");
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+}

@@ -1,0 +1,14 @@
+$o-layout-enabled:            true !default;
+$o-layout__spaces:            map_remove($s-spaces, "large", "huge") !default;
+$o-layout__spaces--default:   "medium" !default;
+$o-layout__spaces--enable:    true !default;
+
+@if ($o-layout-enabled and $o-layout__spaces--enable) {
+  @each $space-name, $space-value in $o-layout__spaces {
+    @if ($space-name != $o-layout__spaces--default) {
+      .o-layout--space-#{$space-name} {
+        margin-left: -$space-value;
+        > .o-layout__item {
+          padding-left: $space-value;
+} } } } }
+
